@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="/CSS/Normalize/normalize.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="/JAVASCRIPT/EJERCICIOS/CARRITO DE COMPRAS FINAL/style.css"
+		/>
+		<title>Carrito de Compras</title>
+	</head>
+	<body>
+		<section class="se1">
+			<div class="fresa">
+				<h5>Fresa 🍓</h5>
+				<p class="precio">$300</p>
+				<button
+					class="botonf boton"
+					data-fruta="fresa"
+					data-precio="300"
+				>
+					Agregar
+				</button>
+			</div>
+
+			<div class="Banano">
+				<h5>Banano 🍌</h5>
+				<p class="precio">$100</p>
+				<button
+					class="botonb boton"
+					data-fruta="banano"
+					data-precio="100"
+				>
+					Agregar
+				</button>
+			</div>
+
+			<div class="Manzana">
+				<h5>Manzana 🍎</h5>
+				<p class="precio">$200</p>
+				<button
+					class="boton botonm"
+					data-fruta="manzana"
+					data-precio="200"
+				>
+					Agregar
+				</button>
+			</div>
+		</section>
+
+		<section class="carrito"></section>
+
+		<footer class="footer"></footer>
+
+		<template class="template">
+			<div class="product">
+				<span class="nume">12</span>
+				<span class="texto">Fresa</span>
+			</div>
+			<div class="total_producto">
+				<span class="spa">
+					<span class="d">Total: $</span> <span class="total_precio"> 300</span>
+				</span>
+
+				<span class="bot">
+					<button class="total_agregar tota">Agregar</button>
+					<button class="total_quitar tota">Quitar</button>
+				</span>
+			</div>
+		</template>
+
+		<template class="foot">
+			<div class="finalizar">
+				<span class="izqui">
+					<span class="d">TOTAL: $</span> <span class="fi_tota">300 </span>
+				</span>
+				<button
+					class="fi_boton"
+					data-boto="finali"
+				>
+					Finalizar Compra
+				</button>
+			</div>
+		</template>
+		<script src="/JAVASCRIPT/EJERCICIOS/CARRITO DE COMPRAS FINAL/script.js"></script>
+	</body>
+</html>
